@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32510.428
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProjectSelenium", "FinalProjectSelenium\FinalProjectSelenium.csproj", "{2A868B56-ABA1-4482-87B5-3174794C673B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalProjectSelenium", "FinalProjectSelenium\FinalProjectSelenium.csproj", "{2A868B56-ABA1-4482-87B5-3174794C673B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginTests", "LoginTests\LoginTests.csproj", "{ACFAD7D0-82FD-4EC9-800E-7FF6A3E73FB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2A868B56-ABA1-4482-87B5-3174794C673B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A868B56-ABA1-4482-87B5-3174794C673B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A868B56-ABA1-4482-87B5-3174794C673B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACFAD7D0-82FD-4EC9-800E-7FF6A3E73FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFAD7D0-82FD-4EC9-800E-7FF6A3E73FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFAD7D0-82FD-4EC9-800E-7FF6A3E73FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFAD7D0-82FD-4EC9-800E-7FF6A3E73FB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
