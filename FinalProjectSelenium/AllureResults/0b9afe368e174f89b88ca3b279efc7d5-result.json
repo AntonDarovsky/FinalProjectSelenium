@@ -1,0 +1,68 @@
+{
+  "uuid": "d3536464-e8c8-49b3-adb7-7a9f9e7fc2d9-tr-0-1001",
+  "historyId": "LoginTests.CreateAccountTests.CreateAccountTest",
+  "fullName": "LoginTests.CreateAccountTests.CreateAccountTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MSQ-NBW-8318"
+    },
+    {
+      "name": "package",
+      "value": "LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CreateAccountTest"
+    },
+    {
+      "name": "testClass",
+      "value": "CreateAccountTests"
+    }
+  ],
+  "links": [],
+  "name": "CreateAccountTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 120 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#id_gender1\"}\n  (Session info: chrome=107.0.5304.63)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at FinalProjectSelenium.WebDriverWaiter.WaitForElement(IWebDriver driver, By by, TimeSpan timeoutInSeconds) in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\FinalProjectSelenium\\WebDriverWaiter.cs:line 14\r\n   at FinalProjectSelenium.CreateAccountPage.ChooseGender() in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\FinalProjectSelenium\\CreateAccountPage.cs:line 43\r\n   at LoginTests.CreateAccountTests.<CreateAccountTest>b__6_0() in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\LoginTests\\CreateAccountTests.cs:line 106\r\n   at LoginTests.CreateAccountTests.UITest(Action action) in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\LoginTests\\CreateAccountTests.cs:line 59\r\n   at LoginTests.CreateAccountTests.CreateAccountTest() in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\LoginTests\\CreateAccountTests.cs:line 93\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at FinalProjectSelenium.WebDriverWaiter.<>c__DisplayClass0_0.<WaitForElement>b__0(IWebDriver drv) in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\FinalProjectSelenium\\WebDriverWaiter.cs:line 14\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "description": "\nOpen SetUp method failed\n",
+  "steps": [
+    {
+      "name": "CreateAccountTest skipped because of ClearResultsDir failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 120 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#id_gender1\"}\n  (Session info: chrome=107.0.5304.63)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at FinalProjectSelenium.WebDriverWaiter.WaitForElement(IWebDriver driver, By by, TimeSpan timeoutInSeconds) in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\FinalProjectSelenium\\WebDriverWaiter.cs:line 14\r\n   at FinalProjectSelenium.CreateAccountPage.ChooseGender() in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\FinalProjectSelenium\\CreateAccountPage.cs:line 43\r\n   at LoginTests.CreateAccountTests.<CreateAccountTest>b__6_0() in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\LoginTests\\CreateAccountTests.cs:line 106\r\n   at LoginTests.CreateAccountTests.UITest(Action action) in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\LoginTests\\CreateAccountTests.cs:line 59\r\n   at LoginTests.CreateAccountTests.CreateAccountTest() in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\LoginTests\\CreateAccountTests.cs:line 93\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at FinalProjectSelenium.WebDriverWaiter.<>c__DisplayClass0_0.<WaitForElement>b__0(IWebDriver drv) in C:\\Users\\AntonDarovsky\\Desktop\\FinalProjectSelenium2\\FinalProjectSelenium\\FinalProjectSelenium\\WebDriverWaiter.cs:line 14\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9f071c20e9444916bdae2fcedaa20f90-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667207947404,
+      "stop": 1667208100000
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667207947403,
+  "stop": 1667208100006
+}
